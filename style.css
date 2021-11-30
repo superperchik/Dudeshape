@@ -152,22 +152,39 @@ h6 {
     height: 40px;
     background-color: #222222;
 }
+
+.cosmetic {
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    /* background-color: blue; */
+    /* background: url(/images/PSDNukJan.png) center no-repeat; */
+}
+
+.cosmetic-image {
+    margin-top: 15%;
+}
+
+
 /* logo_container */
+
 .page {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 40px 100px 67px 100px;
 }
+
 .page-container {
     display: flex;
     width: 10vw;
-    height: 30vw; 
+    height: 30vw;
 }
 
 .header_nav_main_page {
     width: 10px;
 }
+
 .logo-container {
     display: flex;
     justify-content: space-around;
