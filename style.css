@@ -194,3 +194,90 @@ h6 {
     display: grid;
     grid-template-columns: 558px 80px 103px;
 }
+
+
+/* Блок статистики */
+
+.statistic {
+    background-color: #FDF8F5;
+    height: 250px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat_item {
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+}
+
+.stat_num {
+    font-size: 56px;
+    font-weight: 700;
+    border-bottom: 3px solid #000;
+}
+
+.stat_text {
+    color: #555555;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+
+/* Блок с инфой о косметосе */
+
+.about-cosmetic {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.cosmetic-card {
+    display: flex;
+}
+
+.cosmetic-text {
+    width: 50%;
+    margin-right: auto;
+    padding-right: 35px;
+}
+
+.cosmitic-text-title {
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 56px;
+    color: black;
+}
+
+.cosmetic-text-description {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.buy-block {
+    display: inline-block;
+    height: 55px;
+    width: 150px;
+    background-color: #402F2C;
+}
+
+.buy-now-link {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.buy-now-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cosmetic-img {
+    width: 50%;
+    margin-left: auto;
+}
